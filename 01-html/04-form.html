@@ -8,8 +8,39 @@
   </head>
   <body>
     <main>
+      <h1>A very serious questionnaire about programming languages</h1>
       <form action="/submit">
-        <!-- Add your code here -->
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname"><br>
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="email"><br>
+        <h3>Known Languages?</h3><br>
+        <input type="checkbox" name="KnownLanguage1" value="Java">
+        <label for="KnownLanguage1">Java</label><br>
+        <input type="checkbox" name="KnownLanguage2" value="JavaScript">
+        <label for="KnownLanguage2">JavaScript</label><br>
+        <input type="checkbox" name="KnownLanguage3" value="RUST">
+        <label for="KnownLanguage3">RUST</label><br>
+        <input type="checkbox" name="KnownLanguage4" value="HTML" checked>
+        <label for="KnownLanguage4">HTML</label><br>
+        <input type="checkbox" name="KnownLanguage5" value="CSS" checked>
+        <label for="KnownLanguage5">CSS</label><br>
+        <h3>Favorite Language?</h3><br>
+        <input type="radio" id="html" name="fav_language" value="JAVA">
+        <label for="html">JAVA</label><br>
+        <input type="radio" id="html" name="fav_language" value="JavaScript">
+        <label for="html">JavaScript</label><br>
+        <input type="radio" id="html" name="fav_language" value="RUST">
+        <label for="html">RUST</label><br>
+        <input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="html">HTML</label><br>
+        <input type="radio" id="css" name="fav_language" value="CSS" checked="checked">
+        <label for="css">CSS</label><br>
+        <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+        <label for="javascript">JavaScript</label><br><br>
+        <input type="submit" value="Submit">
       </form>
     </main>
   </body>
