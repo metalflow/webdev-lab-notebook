@@ -1,5 +1,7 @@
 /* Specificity Exercise */
 
+/* X (# of ID selsectors)- Y (# of class selectors)- Z (element selector and psuedo element selector)*/
+
 nav .list-item > a {
   color: var(--purple);
 }
